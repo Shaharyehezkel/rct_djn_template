@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path
 from . import views
-from .views import MyTokenObtainPairView
+# from .views import MyTokenObtainPairView
 
 urlpatterns = [
     path('', views.index),
